@@ -21,6 +21,25 @@
             font-size: large;
             margin: 0px;
         }
+        .my_content{
+            display: flex;
+        }
+        .my_img{
+            margin: 10px;
+            padding: 0px;
+            width: 100px;
+            height: 250px;
+            flex:  0 0 40%;
+        }
+        .my_a{
+            flex: 1;
+            font-size: 100px;
+            font-weight: 100px;
+        }
+        .my_self{
+            background-color:black ;
+            color:aqua
+        }
     </style>
 </head>
 <body>
@@ -43,6 +62,20 @@
         <a href="贪吃蛇.py" download="贪吃蛇.py">贪吃蛇</a>python源码3.16KB<br/>
         <a href="炸弹挡板.py" download="炸弹挡板.py">炸弹挡板</a>pytho源码3.32KB<br/>
     </p>
+    <p class="my_ul">工具推荐</p>
+    <div class="my_content">
+        <img src="vscode.webp" class="my_img">
+        <a href="https://code.visualstudio.com/" class="my_a">vscode</a><br/>
+    </div>
+    <hr>
+    <div class="my_self">
+        个人信息<br/>
+        <ul>
+            <li>bilbil:一鸽睿er</li>
+            <li>邮箱：150***163@163.com</li>
+            <li>微信：tu***ua</li>
+        </ul>
+        <p style="text-align: center;">输入邮箱联系：<input></p>
+    </div>
 </body>
-
 </html>
